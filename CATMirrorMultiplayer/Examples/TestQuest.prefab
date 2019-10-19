@@ -1,0 +1,823 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2985648005538501671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7077274470459895847}
+  - component: {fileID: 1564113478752988817}
+  m_Layer: 0
+  m_Name: FirstStage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7077274470459895847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985648005538501671}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3892334306681304410}
+  m_Father: {fileID: 5723831237202512659}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1564113478752988817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985648005538501671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae50a70211cfd143b20e1edba2c98a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.23921569, g: 0.37254903, b: 0.5882353, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  stageName:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  description:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  hideStepsInUI: 0
+--- !u!1 &4214039889465331415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2254722160428038269}
+  - component: {fileID: 4588941109210336884}
+  m_Layer: 0
+  m_Name: CollisionTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2254722160428038269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214039889465331415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9157371756741510789}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4588941109210336884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214039889465331415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968c6f938306cfd4f8c2a0e99d7c4462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.5, g: 0, b: 0, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  negate: 0
+  checkOnStart: 1
+  fireOnce: 0
+  target:
+    type: 4
+    named: Quest2
+    path: 
+    referenceName: 
+    bundleFileName: 
+    useBinding: 0
+    chooseRandom: 0
+    bindingCheckFrequency: 0
+    editorTagged: 0
+    editorLocalizationLabel: 
+    editorTargets:
+    - {fileID: 0}
+    editorDidRun: 1
+    editorPath: 0
+    editorReferenceName: 0
+    editorNamedObject: {fileID: 0}
+  collideTarget:
+    type: 1
+    named: 
+    path: 
+    referenceName: 
+    bundleFileName: 
+    useBinding: 0
+    chooseRandom: 0
+    bindingCheckFrequency: 0
+    editorTagged: 0
+    editorLocalizationLabel: 
+    editorTargets: []
+    editorDidRun: 1
+    editorPath: 0
+    editorReferenceName: 0
+    editorNamedObject: {fileID: 0}
+  isTrigger: 1
+  layerMask:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+--- !u!1 &5776494572468227688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4638409594915541694}
+  - component: {fileID: 199885092974047184}
+  m_Layer: 0
+  m_Name: SecondStage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4638409594915541694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776494572468227688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9157371756741510789}
+  m_Father: {fileID: 5723831237202512659}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &199885092974047184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776494572468227688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae50a70211cfd143b20e1edba2c98a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.23921569, g: 0.37254903, b: 0.5882353, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  stageName:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  description:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  hideStepsInUI: 0
+--- !u!1 &6295901513300727274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5723831237202512659}
+  - component: {fileID: 3783479935455662219}
+  m_Layer: 0
+  m_Name: TestQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5723831237202512659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295901513300727274}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7077274470459895847}
+  - {fileID: 4638409594915541694}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3783479935455662219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295901513300727274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5c53e8088cf4e41a51ed45974db79f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.23921569, g: 0.37254903, b: 0.5882353, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  questGiver: {fileID: 0}
+  storageLevel: 0
+  storageKey: 
+  InitialStage:
+    value: FirstStage
+  questName:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: Test Quest
+  description:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: Just a FPS Test
+--- !u!1 &6857983375660319361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3892334306681304410}
+  - component: {fileID: 5495148986181612384}
+  m_Layer: 0
+  m_Name: StepOnThing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3892334306681304410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6857983375660319361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2382963110518170595}
+  m_Father: {fileID: 7077274470459895847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5495148986181612384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6857983375660319361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3aa7381e74306f4e8ce695ac1252832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.23921569, g: 0.37254903, b: 0.5882353, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  stepName:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: Step On Thing
+  description:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  isOptional:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 0
+  hideInUI: 0
+  count:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 0
+--- !u!1 &7922822508891540410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9157371756741510789}
+  - component: {fileID: 4462875092838593436}
+  m_Layer: 0
+  m_Name: StepOnOtherThing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9157371756741510789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922822508891540410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2254722160428038269}
+  m_Father: {fileID: 4638409594915541694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4462875092838593436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922822508891540410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3aa7381e74306f4e8ce695ac1252832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.23921569, g: 0.37254903, b: 0.5882353, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  stepName:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: Step On The Other Thing
+  description:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 
+  isOptional:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 0
+  hideInUI: 0
+  count:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value: 0
+--- !u!1 &8784271738772753944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2382963110518170595}
+  - component: {fileID: 7682725076142631877}
+  m_Layer: 0
+  m_Name: CollisionTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2382963110518170595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784271738772753944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3892334306681304410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7682725076142631877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784271738772753944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968c6f938306cfd4f8c2a0e99d7c4462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorBreakpoint: 0
+  editorShow: 1
+  editorNameSpaceShow: 1
+  editorName: 
+  editorColor: {r: 0.5, g: 0, b: 0, a: 0.85}
+  editorTargets: []
+  editorRunState: 0
+  editorRunResult: 0
+  editorFilter: 0
+  editorFilterString: 
+  editorShowTemplate: 0
+  editorShowEditorTargets: 0
+  editorLastHierarchyColor: 0
+  negate: 0
+  checkOnStart: 1
+  fireOnce: 0
+  target:
+    type: 4
+    named: Quest1
+    path: 
+    referenceName: 
+    bundleFileName: 
+    useBinding: 0
+    chooseRandom: 0
+    bindingCheckFrequency: 0
+    editorTagged: 0
+    editorLocalizationLabel: 
+    editorTargets:
+    - {fileID: 0}
+    editorDidRun: 1
+    editorPath: 0
+    editorReferenceName: 0
+    editorNamedObject: {fileID: 0}
+  collideTarget:
+    type: 1
+    named: 
+    path: 
+    referenceName: 
+    bundleFileName: 
+    useBinding: 0
+    chooseRandom: 0
+    bindingCheckFrequency: 0
+    editorTagged: 0
+    editorLocalizationLabel: 
+    editorTargets: []
+    editorDidRun: 1
+    editorPath: 0
+    editorReferenceName: 0
+    editorNamedObject: {fileID: 0}
+  isTrigger: 1
+  layerMask:
+    editorGotValue: 0
+    referenceTarget:
+      type: 0
+      named: 
+      path: 
+      referenceName: 
+      bundleFileName: 
+      useBinding: 0
+      chooseRandom: 0
+      bindingCheckFrequency: 0
+      editorTagged: 0
+      editorLocalizationLabel: 
+      editorTargets: []
+      editorDidRun: 0
+      editorPath: 0
+      editorReferenceName: 0
+      editorNamedObject: {fileID: 0}
+    referenceName: 
+    bindingCheckFrequency: 5
+    value:
+      serializedVersion: 2
+      m_Bits: 4294967295
