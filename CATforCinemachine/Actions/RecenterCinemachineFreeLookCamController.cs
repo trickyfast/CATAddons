@@ -185,12 +185,11 @@ namespace TrickyFast.CAT.Cinemachine
                 bool bailNowMov, bailNowRot;
                 // When input stops, don't interrupt rotation while: Center X option is selected, 
                 // and the camera is outside the tolerance for lining up with the goal,
-                // and the goal doesn't rotate more than the rotation bail tolerance.
+                // and the goal doesn't rotate more than the rotation tolerance.
                 // and the goal doesn't move more than the movement tolerance.
                 do
                 {
                     xAngle = Vector3.Angle(Vector3.forward, Vector3.ProjectOnPlane(cam.Follow.forward, Vector3.up)) - cam.m_XAxis.Value;
-                    Debug.Log(subjectStartForward + " | " + cam.Follow.forward + " | " + Vector3.Dot(subjectStartForward, Vector3.ProjectOnPlane(cam.Follow.forward, Vector3.up)) + "<?" + rotToleranceDot);
                     bailNowRot = bailRot && Vector3.Dot(subjectStartForward, Vector3.ProjectOnPlane(cam.Follow.forward, Vector3.up)) < rotToleranceDot;
                     bailNowMov = bailMov && Vector3.SqrMagnitude(cam.Follow.position.Geoposition() - subjectStartPos) > moveToleranceSqr;
                     yield return null;
