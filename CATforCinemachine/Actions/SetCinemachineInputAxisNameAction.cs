@@ -15,7 +15,7 @@ namespace TrickyFast.CAT.Cinemachine
     "newXAxisName: The name of the axis to which the camera will now listen. Ensure that it is set in the Input project setting.",
     "setY: Whether to change the name of the y-axis.",
     "newYAxisName: The name of the axis to which the camera will now listen. Ensure that it is set in the Input project setting.")]
-    public class SetCinemachineInputAxisName : CATRevertOnStopAction
+    public class SetCinemachineInputAxisNameAction : CATRevertOnStopAction
     {
         [Tooltip("The Cinemachine Free Look Cam which will be affected.")]
         public CATarget cinemachineFreeLookCam;
