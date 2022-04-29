@@ -88,20 +88,6 @@ namespace TrickyFast.CAT.Cinemachine
                         cachedFOV, curve.Evaluate(elapsed / cachedDuration));
                 }
             }
-
-            //Below ideally Lerps the FOV back to the original value when RevertOnStop is true (rather than just setting it back)
-            //The problem is if you run this script again, it will set the "OriginalFOV" to be the FOV mid-Lerp
-/*            if (isResetting)
-            {
-                for (int index = 0; index < cinemachines.Count; ++index)
-                {
-                    cinemachines[index].m_Lens.FieldOfView = Mathf.Lerp(cinemachines[index].m_Lens.FieldOfView,
-                        originalFOVs[index], curve.Evaluate(elapsed / cachedDuration));
-                }
-                cinemachines.Clear();
-                originalFOVs.Clear();
-                isResetting = false;
-            }*/
         }
 
         public override bool Stop()
@@ -112,20 +98,6 @@ namespace TrickyFast.CAT.Cinemachine
                 {
                     cinemachines[index].m_Lens.FieldOfView = originalFOVs[index];
                 }
-
-                //Below is part of the same Lerp reset problem seen above.
-                //This has been disabled for now, so RevertOnStop instantly resets the FOV to its original value.
-/*                if(cachedDuration <= 0f)
-                {
-                    for (int index = 0; index < cinemachines.Count; ++index)
-                    {
-                        cinemachines[index].m_Lens.FieldOfView = originalFOVs[index];
-                    }
-                }
-                else
-                {
-                    isResetting = true;
-                }*/
             }
             return base.Stop();
         }
